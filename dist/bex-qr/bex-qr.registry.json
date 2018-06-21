@@ -2,11 +2,11 @@
   "namespace": "BexQr",
   "fsNamespace": "bex-qr",
   "loader": "../bex-qr.js",
-  "core": "bex-qr.pr2nwgv6.js",
+  "core": "bex-qr.fvrge8di.js",
   "corePolyfilled": "bex-qr.ycju34ei.js",
   "components": {
     "bex-qr": {
-      "$": "8v48bazw"
+      "$": "pfkzjq7g"
     }
   }
 }
