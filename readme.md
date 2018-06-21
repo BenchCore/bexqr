@@ -1,5 +1,7 @@
 # BexQR
 
+<img src="bex.png" width="35%">
+
 ## Install
 
 ### Script tag
