@@ -1,6 +1,6 @@
 {
   "name": "bexqr",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "A web component to generate QR codes for BEX payments on BenchCore and the Bench RootChain..",
   "main": "dist/bex-qr.js",
   "types": "dist/types/index.d.ts",
