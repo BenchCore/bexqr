@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="90px" viewBox="0 0 89 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>BexQR</title>
+    <desc>BexQR Currency Logo For BexQR Codes.</desc>
+    <defs></defs>
+    <g id="BexQR" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <ellipse id="Oval" fill="#921FF8" cx="44.5" cy="45" rx="44.5" ry="45"></ellipse>
+        <text id="ƀ" font-family="Courier" font-size="77" font-weight="normal" fill="#FFFFFF">
+            <tspan x="21" y="68">ƀ</tspan>
+        </text>
+    </g>
+</svg>

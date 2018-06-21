@@ -1,0 +1,54 @@
+{
+  "name": "bexqr",
+  "version": "0.0.6",
+  "description": "A web component to generate QR codes for BEX payments on BenchCore and the Bench RootChain..",
+  "main": "dist/bex-qr.js",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "files": [
+    "dist/"
+  ],
+  "browser": "dist/bex-qr.js",
+  "scripts": {
+    "build": "stencil build",
+    "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
+    "serve": "stencil-dev-server",
+    "start": "npm run dev",
+    "test": "jest --no-cache",
+    "test.watch": "jest --watch --no-cache"
+  },
+  "dependencies": {
+    "@stencil/core": "^0.7.20",
+    "@stencil/sass": "0.0.3",
+    "qrious": "^4.0.2"
+  },
+  "devDependencies": {
+    "@stencil/dev-server": "latest",
+    "@stencil/utils": "latest",
+    "@types/jest": "^21.1.1",
+    "jest": "^21.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benchcore/bexqr.git"
+  },
+  "author": "Distributed Webs Project, LLC.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benchcore/bexqr"
+  },
+  "homepage": "https://github.com/benchcore/bexqr",
+  "jest": {
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json",
+      "jsx"
+    ]
+  }
+}

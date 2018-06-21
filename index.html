@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>BEX QR Code Example</title>
+  <script src='https://unpkg.com/bexqr@latest/dist/bex-qr.js'></script>
+  </head>
+  <body>
+  <bex-qr address="BQQsQfMLneMx4AjvCUvgX3CRSi1wJHdf1j" amount="12.17" vendor-field="Greetings%20Martian!" size="400" show-logo="true">
+  <script>
+    document.querySelector('bex-qr').getURI();
+    // => bex:BQQsQfMLneMx4AjvCUvgX3CRSi1wJHdf1j?amount=12.17&vendorField=Greetings%20Martian!
+  </script>
+  </body>
+</html>
